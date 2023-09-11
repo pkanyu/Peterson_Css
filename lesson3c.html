@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            position: relative;
+            animation-name: movement;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: 2;
+            transition:1s ease;
+            /* animation-direction:alternate-reverse; */
+        }
+
+        @keyframes movement {
+            /* 0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 0px;
+                left: 900px;
+            }
+            50%{
+               top: 400px;
+               left:  900px;
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            } */
+
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            15%{
+                top:500px ;
+                left: 0px;
+
+            }
+            30%{
+                top:0px ;
+                left: 300px;
+            }
+            45%{
+                top: 500px;
+                left: 300px;
+            }
+            60%{
+                top: 0px;
+                left: 600px;
+            }
+            75%{
+                top: 500px;
+                left: 600px;
+            }
+            90%{
+                top: 0px;
+                left: 900px;
+            }
+
+            95%{
+                top:500px ;
+                left: 900px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="circle"></div>
+    
+</body>
+</html>

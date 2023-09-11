@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        /* .circle{
+            background-color: black;
+            width: 100px;
+            height: 200px;
+            border-radius: 100%;
+            position: relative;
+            animation-name: move;
+            animation-duration: 2s;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+        } */
+
+
+        img{
+          
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move {
+            from{
+                top:0px;
+                left: -130px;
+            }
+            to{
+                top: 0px;
+                left: 1075px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"> <img src="images/car2.jpg" alt="cars2"></div>
+    <!-- Animation: object movements -->
+    <!-- position: relative; to detect different locations -->
+    <!-- @key-frames: used to perform the object animation -->
+    <!-- syntax: @key-frames animation-name{} -->
+
+
+</body>
+</html>

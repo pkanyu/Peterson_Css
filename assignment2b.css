@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    color: aliceblue;
+    background-color: purple;
+}
+
+.paragraph{
+    background-color: gray;
+    color: aqua;
+    margin-top: 10px;
+}
+
+.para2{
+    line-height: 1.;
+}
+
+.sub_headings{
+    text-align: center;
+    color: aqua;
+    background-color: gray;
+}
+
+
+#pai{
+    background-color: blueviolet;
+}

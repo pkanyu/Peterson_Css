@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+
+}
+
+/* selector by classes: same style features can be repeated */
+/* syntax: .className */
+
+.header{
+    background-color: blueviolet;
+    font-weight: 900;
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+a{
+   border: 3px solid blue;
+   background-color: aquamarine;
+   padding: 10px;
+   margin-top: 8px;
+   margin-bottom: 15px;
+   text-decoration: none;
+   display: inline;
+}
+
+a:hover{
+    color: gray;
+    background-color: gainsboro;
+}
+
+.centered{
+    text-align: center;
+}
+
+/* dispalys: we have two displays */
+
+/* block (div): use division tags to divide the page into different block elements  */
+/* block tags: headings, paragraphs... */
+
+
+/* inline(span) */
+/* inline tags: anchor, inputs, img , videos, iframes... */
+
+/* use-case(div): when a group of html elements are applied with the same styles. */
+
